@@ -1,0 +1,228 @@
+body {
+  font-family: Roboto, sans-serif;
+  /*background-image: url(https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;*/
+}
+
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: left;
+}
+
+h1 {
+  font-weight: 2;
+  margin: 0px;
+  font-family: 'Quicksand','Koulen', Charcoal, Impact;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://www.bostonmagazine.com/wp-content/uploads/sites/2/2018/11/01_Snake_River_Grand_Tetons-feature.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #DFDFDF;
+  text-shadow: 2px 2px 27px black;
+}
+
+.jumbotron h3 {
+  margin: 50px 0 20px;
+  color: #DFDFDF;
+  text-shadow: 3px 3px 7px black;
+  float: right;
+}
+
+.jumbotron .container dd{
+  display:flex;
+  float: right;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #2a70e0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.portrait {
+  width:  350px;
+  height: 300px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  float: left;
+  color:gray;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+.row .col-sm-12{
+  color:gray;
+  margin:7px;
+  display:flex;
+  justify-content:center;
+}
+
+.row .col-sm-12 .defunct a{
+  color: #B7B7B7;
+  text-decoration: overline;
+}
+
+.row .col-sm-12 .defunct a:hover{
+  color: #D5D5D5;
+}
+
+.row .col-sm-12 a{
+  color: gray;
+  font-size: 1.1rem;
+  font-family: 'Quicksand', Futura, "Courier New", Impact, Helvetica,"Trebuchet MS";
+}
+
+#aboutmetext{
+  font-family: "Quicksand", "Trebuchet MS", "Courier New", Helvetica;
+  font-size: 1.1rem;
+  color:#4e4e4e;
+  float:right;
+}
+
+#edextra{
+  font-family: "Quicksand", "Trebuchet MS", "Courier New", Helvetica;
+  font-size: 1.1rem;
+  color:#4e4e4e;
+  float:left;
+}
+
+#edextra p{
+	margin-top:20px;
+}
+
+#extra{
+  margin:40px;
+}
+
+#leftexp{
+  font-family: 'Quicksand','Koulen', Charcoal, Impact;
+  font-size:1.5rem;
+  float:left;
+  margin-bottom:80px;
+}
+
+#leftexp .row{
+  margin-top: 40px;
+}
+
+#bulletpoints{
+  font-family: 'Quicksand','Koulen', Charcoal, Impact;
+}
+
+.col-sm-5{
+  max-height:40%;
+  max-width:35%;
+  
+}
+
+.col-sm-5 img{
+  max-height: 70%;
+  max-width: 30%;
+  float:right;
+  
+}
+
+.row .col-sm-12 a:hover{
+  color: #C2C2C2;
+  text-decoration: overline;
+}
+
+footer ul {
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  min-width: 80%;
+}
+
+.col-sm-3 p{
+  text-family: 'Quicksand', Futura, "Courier New", Impact, Helvetica,"Trebuchet MS";
+  text-align:center;
+  color: #4E4E4E
+}
+
+.col-sm-3 img{
+  max-height: 100%;
+  min-height:70%;
+}
+
+.col-sm-3 ul{
+  color: #4E4E4E;
+  text-family: 'Quicksand', Futura, "Courier New", Impact, Helvetica,"Trebuchet MS";
+}
+
+.col-sm-2 img{
+  max-width: 190px;
+  min-width: 100px;
+  float:left;
+}
+
+.school .col-sm-6{
+  float: right;
+}
